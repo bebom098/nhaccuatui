@@ -1,0 +1,130 @@
+.flex{
+    display: flex;
+}
+$line-color:black;
+header#header{
+    .container{
+        align-items: center;
+        border-radius: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        .logo{
+            width: 125px;
+            height: 125px;
+            img{
+            height: 50px;
+            width: 50px;
+            
+
+            }
+            border: 1px solid blueviolet;
+        }
+        .menu{
+            justify-content: space-between;
+            align-items: center;
+            width: 1450px;
+            border: 1px solid blueviolet;
+            height: 136px;
+            .line{
+                height: 3px;
+                width: 15px;
+                background: $line-color;
+                position: relative;
+                &::before{
+                    position: absolute;
+                    content: "";
+                    width: 100%;
+                    height: 100%;
+                    left: 0;
+                    top: -5px;
+                    background: $line-color;
+                }
+                &::after{
+                    position: absolute;
+                    content: "";
+                    width: 100%;
+                    height: 100%;
+                    left: 0;
+                    top: 5px;
+                    background: $line-color;
+                    text-align: center
+                }
+                .search{
+                    input{
+                        height: 30px;
+                        width: 170px;                  }
+                    .fas.fa-search{
+                        position: absolute;
+                        top: 10%;
+                        left: 20%;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+#main{
+    max-height: 100%;
+    .listmenu{  
+        border: 1px solid blueviolet;
+        >ul{
+            >li{
+                // position: relative;
+                >.dropdown{
+                    display: none;
+                    left: 0;
+                }
+            }
+        }
+        width: 122px;
+        ul{
+            li{
+                align-items: center;
+                border: 1px solid black;    
+                }
+                a{
+                    color: black;
+                    font-size: 12px;
+                    padding: 10px;
+                    span{
+                        // display: inline-block;
+                        transition: all 0.2s;
+                        margin-left: 5px;
+                ul{
+                    li{
+                        a{
+                            padding: 10px;
+                        }
+                    }
+                } 
+                }
+            }
+        }
+    }
+    .listphim{
+        max-width: 1400px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid blueviolet;
+        .item{
+            flex-basis: 20%;
+            padding: 5px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            height: 100%;
+        }
+
+    }
+}
+.rotate{
+    transform:  rotate(-90deg);
+    transition: all 0.2s;
+}
+img{
+    max-width: 100%;
+}

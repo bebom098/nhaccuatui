@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".container>ul>li>a").click(function(t){t.preventDefault(),$(this).find(".dropdown").slideToggle(),$(this).find(".row").hasClass("rotate")?$(this).find(".row").removeClass("rotate"):$(this).find(".row").addClass("rotate")})});

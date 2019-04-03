@@ -1,0 +1,9 @@
+#test {
+  position: relative; }
+
+.slider {
+  position: absolute; }
+  .slider .next {
+    position: absolute;
+    background: red;
+    text-align: right; }

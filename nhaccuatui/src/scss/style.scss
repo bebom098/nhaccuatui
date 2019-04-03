@@ -1,0 +1,269 @@
+// // @import '_tesst.scss'
+// @import 'webxemphim.scss'
+// // @import '_webdemo.scss'
+@import '_test2.scss'
+
+// .flex{
+//     display: flex;
+// }
+
+// .center{
+//     align-items: center;
+// }
+// header#header{
+//     max-width: 100%;
+//     #nhaccuatui{
+//         // padding: 20px 0px;
+//         max-width: 1200px;
+//         margin: auto;
+//         align-items: center;
+    
+//         .listchon{
+//             // align-items: center;
+//             ul{
+//                 align-items: center;
+//                 li{
+//                     padding: 12px;
+//                     position: relative;
+                    
+//                     a{
+//                         font-size: 15px;
+//                         color: black;
+//                         transition: all 0.2s;
+//                         // padding-bottom: 20px;
+//                         text-decoration: none;
+//                         &:hover{
+//                             color: blue;
+//                         }
+//                     }
+                    
+//                     .dropdown{
+//                         position: absolute;
+//                         align-items: flex-start;
+//                         box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.5);
+//                         margin-top: 21px;
+//                         background-color: white;
+//                         display: none;
+//                         li{
+//                             width: 170px;
+//                             h3{
+//                                 margin-bottom: 15px;
+//                             }
+//                             ul{
+                                
+//                                 li{
+//                                     margin-bottom:5px;
+//                                     padding-right: 30px;
+//                                     font-size: 13px;
+//                                 }
+//                             }
+//                         }
+//                         z-index: 9999;
+//                     }
+//                     &:hover>.dropdown{
+//                         display: flex;
+//                     }
+                    
+//                 }
+                   
+//             }
+//         }
+//         .TaiKhoan{
+//             margin-right: 20px;
+//             .avatar{
+//                 img{
+//                     width: 35px;
+//                 height: 35px;
+//                 border-radius: 50%;
+//                 cursor: pointer;
+//                 }
+//             }
+//             z-index: 9999;
+//         }
+//         .item{
+//             margin-right: 20px;
+//             ul{
+//                 li{
+//                     a{
+//                         margin-right: 20px;
+//                     }
+                    
+//                 }
+//             }
+//         }
+//         .searchBox{
+//             margin-right: 20px;
+//             user-select: none;
+//             text-align: center;
+//             ul{
+//                 li{
+//                     align-items: center;
+//                     .nhapvao{
+//                         input{
+//                             height: 38px;
+//                             width: 200px;
+//                             border-radius: 3px;
+//                             box-sizing: border-box;
+//                             color: #333;
+//                             border: 1px solid blue;
+//                         }
+//                     }
+//                     .searchIcon{
+//                         background: #2f82ed;
+//                             height: 38px;
+//                             width: 38px;
+//                             position: relative;
+//                             border-radius: 5px;
+//                             left: -50%;
+//                         a{
+//                             img{
+//                             height: 17px;
+//                             width: 17px;
+//                             position: absolute;
+//                             top: 50%;
+//                             left: 50%;
+//                             transform: translate(-50%,-50%);
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//         .TaiKhoan{
+//             .avatar{
+//                 position: relative;
+                
+//                 .dropdown{
+//                     position: absolute;
+//                     padding: 10px;
+//                     margin-top: 11px;
+//                     box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.5);
+//                     display: none;
+//                 }
+//                 ul{
+//                     li{
+//                         width: 100px;
+//                         margin-bottom: 10px;
+//                         a{
+//                             font-size: 15px;
+                            
+//                             color: black;
+//                             transition: all 0.2s;
+//                             margin-top: 10px;
+//                         }
+//                     }
+//                 }
+//                 &:hover>.dropdown{
+//                     display: inline-block
+//                 }
+//             }
+
+//         }
+//         .item{
+//             ul{
+//                 li{
+//                     img{
+//                         opacity: 0.7;
+//                         &:hover{
+//                             opacity: 1;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+        
+//     }
+// }  
+    
+
+// #main{
+//     max-width: 100%;
+//     .content{
+//         max-width: 1200px;
+//         margin: auto;
+//         align-items: center;
+//         .ChuDe{
+//             .contentRight{
+//                 .nghegihomnay{
+//                     .nhac{    
+//                         li{
+//                             height: 186px;
+//                             padding-right: 20px;
+//                             position: relative;
+//                             a{
+//                                 &:hover>.bongmo{
+//                                     opacity: 0.4;
+//                                 }
+//                                 img{
+//                                     height: 152px;
+//                                     width: 152px;
+//                                     // z-index: 2;
+                                    
+                                    
+//                                 }
+//                                 .bongmo{
+//                                     height: 152px;
+//                                     width: 152px;
+//                                     background: #444;
+//                                     // z-index:0;
+//                                     position: absolute;
+//                                     top:0%;
+//                                     opacity: 0;
+//                                 }   
+//                             }
+//                             p{
+//                                 width: 152px;
+//                             }
+//                         }
+                        
+//                         }
+//                     }
+//                 }
+//             }
+            
+//         }
+//     }
+// #main{
+//     .container{
+//         position: relative;
+//         width: 500px;
+//         .hinhsmall{
+//             position: absolute;
+//             background: #333;
+//             bottom: 0;
+//             padding: 5px;
+//             width: 100%;
+//             ul{
+//                 li{
+//                     position: relative;
+//                     margin-right: 10px;
+//                     img{
+//                         height: 100%;
+//                         width: 100%;
+//                         position: relative;
+//                         z-index: 3;
+//                     }
+//                     &::after{
+//                         content:'';
+//                         position: absolute;
+//                         width:98%;
+//                         height: 9px;
+//                         border: 3px solid red;
+//                         top: 0;
+//                         z-index: 4;
+
+//                         display: none;
+//                     }
+//                     &:hover{
+//                         &::after{
+//                             display: block;
+//                         }
+//                     }
+//                 }  
+//             }
+//         }
+//     }
+// }
+// img{
+//     max-width: 100%;
+// }

@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".list-tabs ul li a").click(function(t){t.preventDefault(),$(".list-tabs ul li a").removeClass("active"),$(this).addClass(".active")})});

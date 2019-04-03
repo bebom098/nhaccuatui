@@ -1,0 +1,92 @@
+.flex {
+  display: flex; }
+
+header#header .container {
+  align-items: center;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  header#header .container .logo {
+    width: 125px;
+    height: 125px;
+    border: 1px solid blueviolet; }
+    header#header .container .logo img {
+      height: 50px;
+      width: 50px; }
+  header#header .container .menu {
+    justify-content: space-between;
+    align-items: center;
+    width: 1450px;
+    border: 1px solid blueviolet;
+    height: 136px; }
+    header#header .container .menu .line {
+      height: 3px;
+      width: 15px;
+      background: black;
+      position: relative; }
+      header#header .container .menu .line::before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: -5px;
+        background: black; }
+      header#header .container .menu .line::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 5px;
+        background: black;
+        text-align: center; }
+      header#header .container .menu .line .search input {
+        height: 30px;
+        width: 170px; }
+      header#header .container .menu .line .search .fas.fa-search {
+        position: absolute;
+        top: 10%;
+        left: 20%; }
+
+#main {
+  max-height: 100%; }
+  #main .listmenu {
+    border: 1px solid blueviolet;
+    width: 122px; }
+    #main .listmenu > ul > li > .dropdown {
+      display: none;
+      left: 0; }
+    #main .listmenu ul li {
+      align-items: center;
+      border: 1px solid black; }
+    #main .listmenu ul a {
+      color: black;
+      font-size: 12px;
+      padding: 10px; }
+      #main .listmenu ul a span {
+        transition: all 0.2s;
+        margin-left: 5px; }
+        #main .listmenu ul a span ul li a {
+          padding: 10px; }
+  #main .listphim {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid blueviolet; }
+    #main .listphim .item {
+      flex-basis: 20%;
+      padding: 5px;
+      height: 100%; }
+      #main .listphim .item img {
+        width: 100%;
+        height: 100%; }
+
+.rotate {
+  transform: rotate(-90deg);
+  transition: all 0.2s; }
+
+img {
+  max-width: 100%; }
